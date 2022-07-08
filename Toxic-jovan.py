@@ -397,7 +397,7 @@ logo = ("""\033[1;32m
  _|    _|  _|    _|    _|  _|    _|    _|  _|    _|        _|  _|    _|    _|  _|    _|      
    _|_|      _|_|        _|        _|_|_|  _|    _|          _|        _|_|_|    _|_|_|      
                                                                                             
-    \033
+\033
 __________________×______________________
   
   Owner   :  Jovan Vau
@@ -425,6 +425,7 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
+		
 		Jovan Vau =input(" Choose : ")
 		if Jovan Vau in ["1", "01"]:
 			File()
